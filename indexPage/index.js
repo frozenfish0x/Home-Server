@@ -11,7 +11,7 @@ const app = createApp({
         }
         const gayhub = () => {
             alert('正在跳转gayhub');
-            window.location.href= "https://github.com/frozenfish0x" 
+            window.location.href= "https://github.com/frozenfisher" 
         }
         const gitee = () => {
             alert('正在跳转gitee');
