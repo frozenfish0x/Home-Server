@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- 视口元标记应使网站能够在所有设备和屏幕分辨率上运行： -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- W3.CSS 应该满足我们所有的样式需求以及所有设备和浏览器的差异： -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+  <title>frozenfish</title>
+  <!--
+        导入映射表，import语法。可以对应下面的import {} from 'vue'  
+    -->
+  <script type='importmap'>
+    {
+        "imports": {
+        "vue":"https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.27/vue.esm-browser.min.js"
+        }
+    }
+    </script>
+</head>
+
+<body>
+  <!-- 图标导入 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script type="module" src="index.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="ImageOverlayFade.css">
+  
+
+
+
+  <!-- 导航 -->
+  <div>
+    <nav class="w3-bar w3-black" >
+      <a href="home" class="w3-button w3-bar-item">Home</a>
+      <a href="blog" class="w3-button w3-bar-item">Blog</a>
+      <a href="music" class="w3-button w3-bar-item">Music</a>
+      <a href="vedio" class="w3-button w3-bar-item">Vedio</a>
+    </nav>
+  </div>
+ 
+    <div class="container center ">
+      <img src="avat.jpg" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">frozenfish </div>
+      </div>
+    </div>
+
+
+ 
+  <div class="w3-container w3-center" id="app">
+    <h2 class="w3-wide">THE FISH HOME</h2>
+    <p class="w3-opacity"><i>no freedom for the enemies of freedome</i></p>
+    <i class="fa fa-qq" @click="qq" style="font-size:24px" ></i>
+    &nbsp
+    <i class="fa fa-github	" @click="gayhub" style="font-size:24px"></i>
+    &nbsp
+    <i class="	fa fa-blind	" @click="gitee" style="font-size:24px"></i>
+    <br>
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=100 src="//music.frozenfish0x.top:4533/share/NCBNaNTRQN#/"></iframe>
+  
+  </div>
+
+  
+  <!-- 页脚 -->
+  
+  <div class="footer">
+    <p>Frozenfish 2020</p>
+    <p class="w3-opacity"><i>Not everyone loves life.</i></p>
+  </div>
+
+</body>
+
+</html>
